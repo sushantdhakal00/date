@@ -1,0 +1,11 @@
+.about_monthly{
+	float:left;
+	width:950px;
+	height:410px;
+	border:2px;
+	padding:0px 0px 0px 0px;
+	background-color:#CCC;
+	-moz-box-shadow: 0 0 20px 5px #999;
+	-webkit-box-shadow: 0 0 20px 5px #999;
+	padding:10px;
+}

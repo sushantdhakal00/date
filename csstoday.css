@@ -1,0 +1,189 @@
+.csstoday_nep {
+border: 1px solid #7c5932;
+-moz-box-shadow: inset 1px 1px 5px 0px #7c5932;
+-webkit-box-shadow: inset 1px 1px  5px 0px #7c5932;
+box-shadow: inset 1px 1px  5px 0px #7c5932;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+text-shadow: 1px 1px 1px #FFE9B1;
+font-weight: normal;
+margin: 12px 5px;
+padding: 2px 10px;
+color: #000000;
+letter-spacing: 1px;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 15px;
+width: 100px;
+text-transform: none;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+display: inline-block;
+background-color: rgba(0, 0, 0, 0.1);
+float:left;
+}
+
+.csstoday_choose_year {
+margin: 12px 5px;
+padding: 2px 10px;
+color: #000000;
+letter-spacing: 1px;
+font-family: 'Arial', sans-serif;
+font-size: 16px;
+width: 100px;
+text-transform: none;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+float:left;
+}
+
+.csstoday_choose_year select {
+border: 1px solid #7c5932;
+-moz-box-shadow: inset 1px 1px 5px 0px #7c5932;
+-webkit-box-shadow: inset 1px 1px  5px 0px #7c5932;
+box-shadow: inset 1px 1px  5px 0px #7c5932;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+text-shadow: 0px 1px 1px #FFE9B1;
+font-weight: normal;
+letter-spacing: 1px;
+font-family: 'Arial', sans-serif;
+font-size: 15px;
+width: 120px;
+text-transform: none;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+background-color: rgba(0, 0, 0, 0.1);
+}
+.csstoday_middle{
+	margin: 0px 208px;
+	width: 280px;
+	float: left;
+}
+.csstoday_middle_up{
+margin: 0px auto;
+width:120px;
+height:15px;
+text-align:center;
+color:transparent;
+text-shadow: 0px 0px 1px #FFE9B1;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size:10px;
+padding-top: 5px;
+}
+@-moz-document url-prefix() {/* firefox-only css goes here */
+.csstoday_middle_up{ text-shadow: 0px 0px 1px #FFE9B1; } /*only for firefox bcs to adjust text-shadow */
+}
+.csstoday_middle_up h2{margin:0px}
+
+.csstoday {
+	border: 1px solid #7c5932;
+	-moz-box-shadow: inset 1px 1px 5px 0px #7c5932;
+	-webkit-box-shadow: inset 1px 1px  5px 0px #7c5932;
+	box-shadow: inset 1px 1px  5px 0px #7c5932;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	text-shadow: 0px 1px 1px #FFE9B1;
+	font-weight: normal;
+	margin-top: 5px;
+	padding: 4px 10px;
+	color: #222;
+	letter-spacing: 1px;
+	font-family: 'Arial', sans-serif;
+	font-size: 12px;
+	width: 256px;/*246*/
+	text-transform: none;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	float: left;
+	background-color: rgba(0, 0, 0, 0.1);
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.csstoday a:hover{
+	color:#FFF;
+	text-shadow: 0px 1px 1px #000;
+	text-decoration:none;
+}
+.previous_year{
+border-radius: 10px;
+text-shadow: 0px 1px 1px #FFE9B1;
+margin: 34px 0px 0px 100px;
+padding: 2px 10px;
+color: #222;
+letter-spacing: 1px;
+font-size: 10px;
+width: 100px;
+text-transform: none;
+text-align: center;
+text-decoration: none;
+cursor:text;
+float:left;
+background-color: rgba(0, 0, 0, 0.1);
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.next_year {
+border: 1px solid #7c5932;
+-moz-box-shadow: inset 1px 1px 5px 0px #7c5932;
+-webkit-box-shadow: inset 1px 1px  5px 0px #7c5932;
+box-shadow: inset 1px 1px  5px 0px #7c5932;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 10px;
+text-shadow: 0px 1px 1px #FFE9B1;
+font-weight: normal;
+margin: 24px 0px 0px 100px;
+padding: 2px 10px;
+color: #222;
+letter-spacing: 1px;
+font-family: 'Arial', sans-serif;
+font-size: 10px;
+width: 100px;
+text-transform: none;
+text-align: center;
+text-decoration: none;
+cursor:text;
+float:left;
+background-color: rgba(0, 0, 0, 0.1);
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.csstoday_eng {
+border: 1px solid #7c5932;
+-moz-box-shadow: inset 1px 1px 5px 0px #7c5932;
+-webkit-box-shadow: inset 1px 1px  5px 0px #7c5932;
+box-shadow: inset 1px 1px  5px 0px #7c5932;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+text-shadow: 0px 1px 1px #FFE9B1;
+font-weight: normal;
+margin: 14px 10px 0px 10px;
+padding: 2px 10px;
+color: #222;
+letter-spacing: 1px;
+font-family: 'Arial', sans-serif;
+font-size: 16px;
+width: 100px;
+text-transform: none;
+text-align: center;
+text-decoration: none;
+cursor:text;
+float:right;
+background-color: rgba(0, 0, 0, 0.1);
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.csstoday:hover, .csstoday_nep:hover {
+background-color: rgba(0, 0, 0, 0.2);
+}
+.csstoday:active, .csstoday_nep:active {
+position: relative;
+top: 1px;
+left: 0px;
+}

@@ -1,0 +1,46 @@
+.header_monthly{
+	color:#666;
+	width:970px;/* padding left ra right ma 5, 5 cha so 10 subtract garayko */
+	height:100px;
+	background-color:#EFEFEF;
+	text-align:center;
+	box-shadow: 0 0 20px 5px #999;
+	-moz-box-shadow: 0 0 20px 5px #999;
+	-webkit-box-shadow: 0 0 20px 5px #999;
+	border-radius: 10px 10px 0 0;
+    border: 0px solid;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin-top:10px;
+	background-image:url(../images/calendar-background.jpg);
+}
+.trans_monthly{
+	width:960px;
+	height:100px;
+	padding-left:5px;
+	padding-right:5px;
+	border-radius:10px;
+	background:rgba(239,239,239,0.8);
+}
+.header_monthly h1{ 
+	font-size: 22px; 
+	color: #333;
+	font-family:'Smythe', cursive;
+	text-shadow:1px 1px 1px #FFF;
+	padding-top:10px;
+	padding-bottom: 10px;
+	letter-spacing:3px;
+	margin:0px;
+}
+/*css for table*/
+table#calendartable {
+    background-color:#F8F8F8;
+    border:solid #68CEF0 1.5px;
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table#calendartable td {
+    padding: 0px;
+    border: solid #E6E6E6 1px;
+    text-align:left;
+}

@@ -1,0 +1,340 @@
+a {
+	text-decoration: none;
+	color: inherit;
+}
+p {
+	margin: 0px;
+}
+body {
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	background-color: #fff;
+}
+.clear {
+	clear: both;
+}
+.h1_title {
+	font-size: 22px;
+	color: #333;
+	font-family: 'Smythe', cursive;
+	text-shadow: 1px 1px 1px #FFF;
+	padding-top: 3px;
+	letter-spacing: 3px;
+}
+.container {
+	width: 970px;
+	/*height: 950px; hight define garna pardina, aafai tankincha*/
+	/*background-color: #F3F3F3;*/
+	margin: 0 auto;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.nepali_time {
+	margin: 0px 310px; /*310*/
+	background-color: #CCC;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 2px #FFF;
+	text-shadow: 0px 1px 1px #FFF;
+	border: 1px solid;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.header {
+	color: #666;
+	width: 970px;/* padding left ra right ma 5, 5 cha so 10 subtract garayko */
+	height: 240px;
+	background-color: #EFEFEF;
+	text-align: center;
+	box-shadow: 0 0 20px 5px #999;
+	-moz-box-shadow: 0 0 20px 5px #999;
+	-webkit-box-shadow: 0 0 20px 5px #999;
+	/* Div lai round corner banaucha talako 4 line lay */
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 5px;
+	border: 0px solid;
+	background-image: url(images/calendar-background.jpg);
+}
+.trans {
+	width: 970px;
+	height: 240px;
+	border-radius: 5px;
+	background: rgba(239,239,239,0.8);
+}
+.text_content {
+	margin-top: 15px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.text_content_left {
+	float: left;
+	height: 50px;
+	width: 460px;
+	padding: 5px 10px 5px 5px;
+	/*background-color:#ccc;*/
+	text-align: justify;
+	color: #333;
+	font-size: 12px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.text_content_right {
+	float: right;
+	height: 50px;
+	width: 460px;
+	padding: 5px 5px 5px 10px;
+	/*background-color:#CCC;*/
+	text-align: justify;
+	color: #333;
+	font-size: 12px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}	
+.add {
+	width: 970px;
+	height: 90px;
+	background-color: #EFEFEF;
+	box-shadow: 0px 10px 20px 5px #999;
+	-moz-box-shadow: 0 10px 20px 5px #999;
+	-webkit-box-shadow: 0 10px 20px 5px #999;
+	border-radius: 0 0 10px 10px;
+	border: 0px solid;
+}
+.add_970 {
+	width: 970px;
+	height: 30px;
+	background-color: #EFEFEF;
+	/*box-shadow: 0px 10px 20px 5px #999;
+	-moz-box-shadow: 0 10px 20px 5px #999;
+	-webkit-box-shadow: 0 10px 20px 5px #999;*/
+	border: 0px solid;
+	text-align: center;
+}
+.leather-strip {
+	width: 970px;
+	height: 55px;
+	background-image: url(images/leather-strip.jpg);
+	background-size: contain; /*Yeslay retina image garcha ke jasto lagcha */
+	-moz-box-shadow: 0 20px 20px 5px #999;
+	-webkit-box-shadow: 0 20px 20px 5px #999;
+	box-shadow: 0 20px 20px 5px #999;
+	/* Div lai round corner banaucha talako 4 line lay */
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border: 0px solid;
+}
+.styled-select select {
+	background: transparent;
+	width: 268px;
+	padding: 5px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	height: 34px;
+}
+.navigation {
+	font-size: 30px;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	background-color: rgba(139, 137, 137, 0.2);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid;
+}
+.gap {
+	width: 970px;
+	height: 14px;
+	background-image: url(images/nepali-calendar-leather-drop.jpg);
+	background-repeat: repeat-x;
+	background-size: contain; /*Yeslay retina image garcha ke jasto lagcha */
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Nepali calendar table<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+table#calendarlinktable {
+	background-color: #F8F8F8;/* This bg clolor is not affacting bcs the bg color is defined as white in table <td>*/
+	border: solid #E6E6E6 2px;
+	width: 100%; /* 220px */
+	height: 166px; /* 166px */
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table#calendarlinktable td {
+	padding: 0px;
+	border: solid #E6E6E6 1px;
+	cursor: pointer;
+}
+.monthly {
+	float: left;
+	width: 970px;
+	/*height:410px; height aafai adjust bhayo*/
+	border: 2px;
+	padding: 0px 0px 0px 0px;
+	background-color: #CCC;
+	box-shadow: 0 0 20px 5px #999;
+	-moz-box-shadow: 0 0 20px 5px #999;
+	-webkit-box-shadow: 0 0 20px 5px #999;
+}
+.cal1 {
+	float: left;
+	width: 232px;
+	height: 168px;
+	border: 2px;
+	padding: 0px 0px 0px 0px;
+	background-color: #CCC;
+	box-shadow: 0 10px 20px 5px #999;
+	-moz-box-shadow: 0 10px 20px 5px #999;
+	-webkit-box-shadow: 0 10px 20px 5px #999;
+}
+.cal1_color {
+	float: left;
+	width: 232px;
+	height: 168px;
+	border: 2px;
+	margin-top: 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #CCC;
+	box-shadow: 0 0 20px 5px #33CCFF;
+	-moz-box-shadow: 0 0 20px 5px #33CCFF;
+	-webkit-box-shadow: 0 0 10px 5px #33CCFF;
+}
+.cal2 {
+	float: left;
+	width: 232px;
+	height: 168px;
+	border: 2px;
+	margin-left: 14px;
+	padding: 0px 0px 0px 0px;
+	background-color: #CCC;
+	box-shadow: 0 10px 20px 5px #999;
+	-moz-box-shadow: 0 10px 20px 5px #999;
+	-webkit-box-shadow: 0 10px 20px 5px #999;
+}
+.cal2_color {
+	float: left;
+	width: 232px;
+	height: 168px;
+	border: 0px solid;
+	margin-left: 14px;
+	margin-top: 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #CCC;
+	box-shadow: 0 0 20px 5px #999;
+	-moz-box-shadow: 0 0 20px 5px #33CCFF;
+	-webkit-box-shadow: 0 0 10px 5px #33CCFF;
+}
+.cal5 {
+	float: left;
+	width: 232px;
+	height: 168px;
+	border: 2px;
+	margin-top: 20px;
+	padding: 0px 0px 0px 0px;
+	background-color: #CCC;
+	box-shadow: 0 0 20px 5px #999;
+	-moz-box-shadow: 0 0 20px 5px #999;
+	-webkit-box-shadow: 0 0 20px 5px #999;
+}
+.cal5_color {
+	float: left;
+	width: 232px;
+	height: 168px;
+	border: 2px;
+	margin-top: 20px;
+	padding: 0px 0px 0px 0px;
+	background-color: #CCC;
+	box-shadow: 0 0 20px 5px #999;
+	-moz-box-shadow: 0 0 20px 5px #33CCFF;
+	-webkit-box-shadow: 0 0 10px 5px #33CCFF;
+}
+.cal6 {
+	float: left;
+	width: 232px;
+	height: 168px;
+	border: 2px;
+	margin-left: 14px;
+	margin-top: 20px;
+	padding: 0px 0px 0px 0px;
+	background-color: #CCC;
+	box-shadow: 0 0 20px 5px #999;
+	-moz-box-shadow: 0 0 20px 5px #999;
+	-webkit-box-shadow: 0 0 20px 5px #999;
+}
+.cal6_color {
+	float: left;
+	width: 232px;
+	height: 168px;
+	border: 0px solid;
+	margin-left: 14px;
+	margin-top: 20px;
+	padding: 0px 0px 0px 0px;
+	background-color: #CCC;
+	box-shadow: 0 0 20px 5px #33CCFF;
+	-moz-box-shadow: 0 0 20px 5px #33CCFF;
+	-webkit-box-shadow: 0 0 10px 5px #33CCFF;
+}
+.footer_book {
+	width: 970px;
+	height: 15px;/*7*/
+	margin-top: 0px;/*10*/
+	background-image: url(images/footer-book-small.png);
+	background-repeat: repeat-x;
+	background-size: contain; /*Yeslay retina image garcha ke jasto lagcha */
+	/* Div lai round corner banaucha talako 4 line lay */
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border-radius: 0 0 5px 5px;
+	border: 0px solid;
+}
+.footer_shadow {
+	width: 970px;
+	height: 0px; /*7*/
+	margin-top: 0px; /*10*/
+	padding-bottom: 10px;
+	background-color: #B3B3B3; /*yo color chrome ma milcha tara firefox ma ali dark aako cha, so firefox tala #CCC specify garayko cha*/
+	box-shadow: 0 5px 20px 5px #999;
+	-moz-box-shadow: 0 5px 20px 5px #999;
+	-webkit-box-shadow: 0 5px 20px 5px #999;
+}
+@-moz-document url-prefix(){ /* firefox-only css goes here */
+.footer_shadow {background-color: #CCC; }
+}
+.footer {
+	float: left;
+	width: 970px;
+	height: 90px;
+	margin-top: 20px;
+	background-color: #EFEFEF;
+	background-size: contain;
+	box-shadow: 0 0 20px 5px #999;
+	-moz-box-shadow: 0 0 20px 5px #999;
+	-webkit-box-shadow: 0 0 20px 5px #999;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 5px;
+	border: 0px solid;
+}
+.copyright_left {
+	float: left;
+	padding-left: 5px;
+	color: gray;
+	font-size: 10px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+	.copyright_left a:hover{color:#138EE6}
+		
+.copyright_right {
+	float: right;
+	padding-right: 5px;
+	color: gray;
+	font-size: 10px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+	.copyright_right a:link {
+		text-decoration:underline;
+		}
+	.copyright_right a:hover{color:#138EE6}
